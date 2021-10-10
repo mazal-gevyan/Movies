@@ -1,0 +1,9 @@
+@import "~src/assets/style";
+
+.movies-list-container {
+  width: 100%;
+  @include flexRow;
+  flex-wrap: wrap;
+  margin: 5rem;
+
+}

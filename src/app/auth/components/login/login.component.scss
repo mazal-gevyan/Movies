@@ -1,0 +1,10 @@
+@import "~src/assets/style";
+
+.login-container {
+  margin-top: 10%;
+  @include flexRow;
+  
+  mat-card {
+    min-width: 40%;
+  }
+}

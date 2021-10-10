@@ -1,0 +1,7 @@
+<div class="side-bar-container">
+   <button type="button" class="add-button"
+     (click)="openAddMovieForm()">הוספת סרט</button>
+    <ng-container *ngIf="categories">
+      <app-categories [categories]="categories"></app-categories>
+    </ng-container>
+</div>

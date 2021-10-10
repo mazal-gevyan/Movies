@@ -1,0 +1,11 @@
+<div class='card'>
+  <div class='card_left'>
+    <img [src]="movie?.poster" [alt]="movie?.title">
+  </div>
+  <div class='card_right'>
+    <h1><a [href]="movie?.imdbLink" >{{movie?.title}}</a></h1>
+    <div class='card_right__details'>
+      <p>{{movie?.category}}</p>
+    </div>
+  </div>
+</div>

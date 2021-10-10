@@ -1,0 +1,8 @@
+<div class="movies-list-container">
+  <ng-container *ngIf="movies?.length > 0">
+    <div *ngFor="let movie of movies">
+      <!-- <pre>{{movie | json}}</pre> -->
+      <app-card [movie]="movie"></app-card>
+    </div>
+  </ng-container>
+</div>
